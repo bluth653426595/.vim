@@ -1,7 +1,7 @@
 .vim
 ====
 
-vim coonfig file
+vim config file
 
 1.git clone  git@github.com:bluth653426595/.vim.git
 
