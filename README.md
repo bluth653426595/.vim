@@ -13,4 +13,16 @@ vim config file
 
 5.ln -s .vimrc ~/.vimrc
 
+6.git submodule init
 
+7.git submodule update6.git submodule init
+
+7.git submodule update6.git submodule init
+
+7.git submodule update6.git submodule init
+
+7.git submodule update6.git submodule init
+
+7.git submodule update6.git submodule init
+
+7.git submodule update
