@@ -15,14 +15,4 @@ vim config file
 
 6.git submodule init
 
-7.git submodule update6.git submodule init
-
-7.git submodule update6.git submodule init
-
-7.git submodule update6.git submodule init
-
-7.git submodule update6.git submodule init
-
-7.git submodule update6.git submodule init
-
 7.git submodule update
