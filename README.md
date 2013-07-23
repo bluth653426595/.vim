@@ -2,6 +2,8 @@
 ====
 
 vim config file
+
+
 0.rm -rf ~/.vim/
 
 1.git clone  git@github.com:bluth653426595/.vim.git
