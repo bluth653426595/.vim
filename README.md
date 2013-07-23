@@ -1,6 +1,3 @@
-.vim
-====
-
 vim config file
 
 0.rm -rf ~/.vim/
