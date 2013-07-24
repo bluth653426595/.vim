@@ -21,3 +21,11 @@ vim config file
 9.cd ~/ddd
 
 10.ctags -R *
+
+11. ctrl+shift+P 
+
+12. pac install 
+
+13. ctags
+
+14.rebuild ctags
