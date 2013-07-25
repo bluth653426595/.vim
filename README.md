@@ -10,7 +10,7 @@ vim config file
 
 4.cd ~/.vim
 
-5.cp .vimrc ~/.vimrc
+5.cp .vimrc ~/
 
 6.git submodule init
 
