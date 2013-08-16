@@ -27,6 +27,7 @@ set nocompatible
 " history文件中需要记录的行数 
 set history=100 
 
+colorscheme elflord
 " 在处理未保存或只读文件的时候，弹出确认 
 set confirm 
 
@@ -175,8 +176,8 @@ set smarttab
 " 按照名称排序 
 let Tlist_Sort_Type = "name" 
 
-" 在右侧显示窗口 
-let Tlist_Use_Right_Window = 1 
+" 在左侧显示窗口 
+let Tlist_Use_LEFT_Window = 1 
 
 " 压缩方式 
 let Tlist_Compart_Format = 1 
@@ -185,10 +186,15 @@ let Tlist_Compart_Format = 1
 let Tlist_Exist_OnlyWindow = 1 
 
 " 不要关闭其他文件的tags 
-let Tlist_File_Fold_Auto_Close = 0 
+let Tlist_File_Fold_Auto_Close = 1 
 
 " 不要显示折叠树 
 let Tlist_Enable_Fold_Column = 0 
+
+let Tlist_Show_One_File  = 1 
+let Tlist_GainFocus_On_ToggleOpen = 1
+let g:winManagerWindowLayout = 'FileExplorer'
+nmap tl:TlistOpen
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""" 
 " Autocommands 
