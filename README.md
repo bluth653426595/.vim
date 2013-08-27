@@ -1,7 +1,6 @@
-.vim
-====
-
 vim config file
+
+0.rm -rf ~/.vim/
 
 1.git clone  git@github.com:bluth653426595/.vim.git
 
@@ -11,6 +10,22 @@ vim config file
 
 4.cd ~/.vim
 
-5.ln -s .vimrc ~/.vimrc
+5.cp .vimrc ~/
 
+6.git submodule init
 
+7.git submodule update
+
+8.sudo apt-get install ctags
+
+9.cd ~/ddd
+
+10.ctags -R *
+
+11. ctrl+shift+P 
+
+12. pac install 
+
+13. ctags
+
+14.rebuild ctags
