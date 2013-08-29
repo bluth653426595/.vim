@@ -1,31 +1,38 @@
 vim config file
 
 0.rm -rf ~/.vim/
+  rm -rf .vimrc
 
 1.git clone  git@github.com:bluth653426595/.vim.git
 
 2.cd ~/
 
-3.rm -rf .vimrc
+3.ln -s ~/.vim/.vimrc ~/
 
-4.cd ~/.vim
+4.Setup Vundle:
 
-5.cp .vimrc ~/
+   git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+   
+5. 配置plugin
+   进vim
+   ：BundleInstall
 
-6.git submodule init
+6.对于不想用的插件，先在.vimrc中注释，然后:BundleClear
 
-7.git submodule update
+> 6.git submodule init
 
-8.sudo apt-get install ctags
+> 7.git submodule update
 
-9.cd ~/ddd
+> 8.sudo apt-get install ctags
 
-10.ctags -R *
+> 9.cd ~/dde
 
-11. ctrl+shift+P 
+> 10.ctags -R *
 
-12. pac install 
+> 11. ctrl+shift+P 
 
-13. ctags
+> 12. pac install 
 
-14.rebuild ctags
+> 13. ctags
+
+> 14.rebuild ctags
