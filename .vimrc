@@ -67,6 +67,9 @@ syntax on
 "设置帮助的语言为中文
 set helplang=cn
 
+"设置状态栏格式和显示
+set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [ASCII=\%03.3b]\ [HEX=\%02.2B]\ [POS=%04l,%04v][%p%%]\ [LEN=%L]
+
 "搜索高亮
 set hlsearch
 set incsearch
@@ -125,8 +128,8 @@ set autoindent
 set cindent
 
 "查找手册
-autocmd FileType php set keywordprg=~/.vim/phpman
-autocmd FileType js,css,html set keywordprg=~/.vim/man
+autocmd FileType php set keywordprg=/usr/share/phpman
+autocmd FileType c,js,css,html set keywordprg=/usr/share/man
 map <F2> <S-K><CR>
 map! <F2> <Esc><S-K><CR>a
 
@@ -319,19 +322,19 @@ map <S-F> <Esc>:call CodeFormat()<CR>
 nmap <C-\> :!sdcv "<cword>" <C-R>=expand("<cword>")<CR><CR>
 
 "进行版权声明的设置
-let g:vimrc_author='jouyouyun'
-let g:vimrc_email='jouyouwen717@gmail.com'
-let g:vimrc_homepage='http://jouyouyun.is-programmer.com'
+let g:vimrc_author='yuanchenglu'
+let g:vimrc_email='yuanchenglu001@gmail.com'
+let g:vimrc_homepage='http://weibo.com/yuanchenglu'
 
 "Deepin Template
-autocmd BufNewFile *.c 0r ~/.vim/template/C.c
-autocmd BufNewFile *.h 0r ~/.vim/template/H.h
-autocmd BufNewFile *.py 0r ~/.vim/template/PY.py
-autocmd BufNewFile *.sh 0r ~/.vim/template/shell.sh
-autocmd BufNewFile *.cpp 0r ~/.vim/template/CPP.cpp
-autocmd BufNewFile *.coffee 0r ~/.vim/template/coffee.coffee
+"autocmd BufNewFile *.c 0r ~/.vim/template/C.c
+"autocmd BufNewFile *.h 0r ~/.vim/template/H.h
+"autocmd BufNewFile *.py 0r ~/.vim/template/PY.py
+"autocmd BufNewFile *.sh 0r ~/.vim/template/shell.sh
+"autocmd BufNewFile *.cpp 0r ~/.vim/template/CPP.cpp
+"autocmd BufNewFile *.coffee 0r ~/.vim/template/coffee.coffee
 
-nmap <F4> :AuthorInfoDetect<CR>
+nmap <F7> :AuthorInfoDetect<CR>
 
 set fileencoding=utf-8
 set fileencodings=utf-8,gb2312,gb18030,default
