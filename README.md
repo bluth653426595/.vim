@@ -7,7 +7,7 @@ vim config file
 
 2.cd ~/
 
-3.ln -s ~/.vim/.vimrc ~/
+3.ln -s .vim/.vimrc ~/.
 
 4.Setup Vundle:
 
@@ -17,7 +17,7 @@ vim config file
    进vim
    ：BundleInstall
 
-6.对于不想用的插件，先在.vimrc中注释，然后:BundleClear
+6.对于不想用的插件，先在.vimrc中注释，然后:BundleClean
 
 > 6.git submodule init
 
