@@ -24,10 +24,10 @@ Bundle 'xml.vim'
 
 "plugin
 "Bundle 'AutoComplPop'
-Bundle 'The-NERD-tree'
+"Bundle 'The-NERD-tree'
 "Bundle 'AutoClose--Alves'
 Bundle 'Tagbar'
-Bundle 'minibufexpl.vim'
+"Bundle 'minibufexpl.vim'
 Bundle 'The-NERD-Commenter'
 "ZenCoding Speed html && css editing
 "Bundle 'ZenCoding.vim'
